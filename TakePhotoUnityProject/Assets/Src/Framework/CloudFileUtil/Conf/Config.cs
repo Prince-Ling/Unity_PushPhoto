@@ -15,12 +15,12 @@ namespace UFileCSharpSDK
 		/// <summary>
 		/// UCloud提供的公钥
 		/// </summary>
-        public static string UCLOUD_PUBLIC_KEY = @"5ZSvzUQPCD1K+dELjcoQlkHQ/VsVUCNr86VdLmvLeGFgmpNbrQO6Tw==";
+        public static string UCLOUD_PUBLIC_KEY = @"";
 
 		/// <summary>
 		/// UCloud提供的密钥
 		/// </summary>
-        public static string UCLOUD_PRIVATE_KEY = @"e2cfa3e916907f52781cbfbf71870ff7eba1db39";
+        public static string UCLOUD_PRIVATE_KEY = @"";
 
 
 		public static string GetUserAgent() 

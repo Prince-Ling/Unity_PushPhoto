@@ -16,7 +16,7 @@ public enum PhotoTypeEnum : int
 public class PhotoControl : MonoBehaviour
 {
     private string RoleID = "";//根据玩家roleid定义域名Key值//
-    public static string UCloudBucket = "tengyunqilin";//图片域名前缀
+    public static string UCloudBucket = "";//图片域名前缀
     public static string UFileEndStr = "?iopcmd=thumbnail&type=6&height=400&width=600|iopcmd=convert&dst=jpg&Q=50";//图片裁剪url后缀
     public static string UFileSmallEndStr = "?iopcmd=thumbnail&type=6&height=60&width=80";//图片裁剪url后缀
     public static string SavePathHead = Application.persistentDataPath + "/Pic";//图片保存位置
